@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status=debug 可以查看log4j的装配过程 -->
+<configuration status="OFF" monitorInterval="1800">
+	<properties>
+		<property name="LOG_PATH">/app/logs</property>
+		<property name="project_name">user-admin-data-sync</property>
+		<property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%traceId] [%t] %-5level %c{1}.%M():%L - %msg%xEx%n</property>
+	</properties>
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout pattern="${pattern}" />
+		</Console>
+
+	</appenders>
+	<loggers>
+		<!--  Loggers -->
+		<Logger name="org.springframework" level="info"/>
+		<Logger name="com.google" level="info"/>
+		<Logger name="net.rubyeye" level="info"/>
+		<Logger name="org.hibernate" level="info"/>
+		<Logger name="org.mybatis" level="info"/>
+		<Logger name="com.datasync.mapper" level="debug"/>
+		<Logger name="org.apache" level="info"/>
+		<Logger name="io.undertow" level="info"/>
+		<Logger name="springfox.documentation" level="info"/>
+		<Root level="info">
+			<appender-ref ref="Console"></appender-ref>
+		</Root>
+	</loggers>
+
+</configuration>
