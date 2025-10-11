@@ -2,4 +2,5 @@
 A demo project for Spring Boot data migration job.
 
 ## 🧱 Project Architecture
-<img width="776" height="298" alt="image" src="https://github.com/user-attachments/assets/7101874a-92d8-4997-b44d-e02668318881" />
+<img width="881" height="302" alt="image" src="https://github.com/user-attachments/assets/b477884b-4ec6-436b-96f4-d2f274d4a19d" />
+
