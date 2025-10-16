@@ -1,0 +1,26 @@
+spring:
+  redis:
+    host: localhost        # Redis 服务器地址
+    port: 6379             # Redis 端口
+    password:              # 如果没设置密码则留空
+    database: 0            # 使用第几个逻辑数据库（默认0）
+    timeout: 5000          # 连接超时时间 (毫秒)
+    lettuce:
+      pool:
+        max-active: 8      # 连接池最大连接数
+        max-idle: 8        # 最大空闲连接
+        min-idle: 0        # 最小空闲连接
+        max-wait: 10000ms  # 连接池最大等待时间
+  datasource:
+    dynamic:
+      primary: targetDB  # 默认数据源（必须指定）
+    sourceDB:
+      url: jdbc:mysql://192.168.1.115:3306/hoe_common?useUnicode=true&characterEncoding=UTF8&useSSL=false
+      username: root
+      password: Admin@2023
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    targetDB:
+      url: jdbc:mysql://192.168.1.115:3306/hoe_common?useUnicode=true&characterEncoding=UTF8&useSSL=false
+      username: root
+      password: Admin@2023
+      driver-class-name: com.mysql.cj.jdbc.Driver
