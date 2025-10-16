@@ -8,7 +8,7 @@ import com.datasync.service.bo.syncdata.MigrationBaseBO;
 import java.util.List;
 
 /**
- * @author guanyuanfei
+ * @author Leonpo
  * @date 2023/5/16 10:00
  */
 public interface DataProcessService<S> {

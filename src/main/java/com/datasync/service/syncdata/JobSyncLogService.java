@@ -5,7 +5,7 @@ import com.datasync.common.MigrateJobParam;
 import com.datasync.entity.targetDTO.DsSyncLog;
 
 /**
- * @author guanyuanfei
+ * @author Leonpo
  * @date 2023/5/18 10:23
  */
 public interface JobSyncLogService {

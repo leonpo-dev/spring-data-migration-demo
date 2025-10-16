@@ -3,7 +3,7 @@ package com.datasync.service.bo.syncdata;
 import java.util.function.Function;
 
 /**
- * @author guanyuanfei
+ * @author Leonpo
  * @date 2023/5/15 18:13
  */
 public class AfterProcessField<E> {

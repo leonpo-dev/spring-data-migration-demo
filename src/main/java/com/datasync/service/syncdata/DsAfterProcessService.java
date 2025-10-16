@@ -8,7 +8,7 @@ import com.datasync.entity.targetDTO.DsAfterProcess;
  * 后置处理未处理成功的记录 服务类
  * </p>
  *
- * @author DRG
+ * @author
  * @since 2023-05-18
  */
 public interface DsAfterProcessService extends IService<DsAfterProcess> {

@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
  * 菜单资源表
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-05-16
  */
 @Getter

@@ -9,7 +9,7 @@ import com.datasync.entity.targetDTO.MenuElement;
  * 菜单资源表 服务类
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-05-16
  */
 @DS("targetDB")

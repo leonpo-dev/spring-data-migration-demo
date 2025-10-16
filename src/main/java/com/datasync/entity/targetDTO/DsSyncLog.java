@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
  * 迁移记录表
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-05-16
  */
 @Getter

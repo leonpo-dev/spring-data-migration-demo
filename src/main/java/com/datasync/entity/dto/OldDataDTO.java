@@ -3,7 +3,7 @@ package com.datasync.entity.dto;
 import lombok.Data;
 
 /**
- * @author guanyuanfei
+ * @author Leonpo
  * @date 2023/6/25 10:19
  */
 @Data

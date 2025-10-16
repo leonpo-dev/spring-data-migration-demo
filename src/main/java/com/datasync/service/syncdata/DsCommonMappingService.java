@@ -9,7 +9,7 @@ import com.datasync.entity.targetDTO.DsCommonMapping;
  * 通用映射关系表 服务类
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-05-16
  */
 public interface DsCommonMappingService extends IService<DsCommonMapping> {

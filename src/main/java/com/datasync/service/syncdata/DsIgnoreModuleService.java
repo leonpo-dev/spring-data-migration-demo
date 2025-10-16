@@ -8,7 +8,7 @@ import com.datasync.entity.targetDTO.DsIgnoreModule;
  * 迁移后可忽略的模块 服务类
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-06-14
  */
 public interface DsIgnoreModuleService extends IService<DsIgnoreModule> {

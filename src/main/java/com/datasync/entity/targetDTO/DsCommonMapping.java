@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
  * 通用映射关系表
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-05-16
  */
 @Getter

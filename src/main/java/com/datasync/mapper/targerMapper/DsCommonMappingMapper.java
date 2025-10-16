@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Mapper;
  * 通用映射关系表 Mapper 接口
  * </p>
  *
- * @author system
+ * @author Leonpo
  * @since 2023-05-16
  */
 @Mapper
